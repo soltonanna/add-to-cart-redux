@@ -1,7 +1,8 @@
 .item {
   margin: 1rem 0;
-  background-color: #575757;
+  background-color: #F5EDED;
   padding: 1rem;
+  border-radius: 10px;
 }
 
 .item h3 {
@@ -44,15 +45,17 @@
 }
 
 .actions button {
-  background-color: transparent;
-  border: 1px solid white;
+  background-color: #144272;
+  border: 1px solid #144272;
   margin-left: 0.5rem;
   padding: 0.15rem 1rem;
-  color: white;
+  color: #F5EDED;
+  font-weight: 600;
+  transition: 0.2s background ease-in-out;
 }
 
 .actions button:hover,
 .actions button:active {
-  background-color: #4b4b4b;
-  color: white;
+  background-color: #F5EDED;
+  color: #144272;
 }

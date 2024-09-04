@@ -12,9 +12,16 @@
 .price {
   border-radius: 30px;
   padding: 0.15rem 1.5rem;
-  background-color: #3a3a3a;
-  color: white;
+  background-color: #205295;
+  border: 1px solid #205295;
+  color: #F5EDED;
   font-size: 1.5rem;
+}
+
+.price:hover {
+  background-color: #F5EDED;
+  border: 1px solid #205295;
+  color: #205295;
 }
 
 .item p {

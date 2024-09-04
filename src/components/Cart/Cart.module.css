@@ -1,12 +1,15 @@
 .cart {
-  max-width: 30rem;
-  background-color: #313131;
-  color: white;
+  color: #144272;
+  max-width: 35rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: #205295;
 }
 
 .cart h2 {
   font-size: 1.25rem;
   margin: 0.5rem 0;
+  color: #F5EDED;
 }
 
 .cart ul {
